@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+
+verde : #49a09d
+lilas : #4f2c82
+
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4f2c82;
+}
+
+#imagem {
+    min-width: 311px;
+    min-height: 250px;
+    background-image: url(../imagens/pattern.jpg);
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 580px;
+    min-width: 311px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.campo {
+    background-color: #4f2c82;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+#pessoa {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#chave {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#iemail {
+    font-size: 1.1em;
+    width: calc(95% - 40px);
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #97f5f2;
+    transform: translateY(-5px);
+}
+
+#isenha {
+    font-size: 1.1em;
+    width: calc(95% - 40px);
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #97f5f2;
+    transform: translateY(-5px);
+}
+
+#enviar {
+    background-color: #49a09d;
+    display: block;
+    margin: 15px auto 10px auto;
+    width: 95%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+#enviar:hover {
+    background-color: #5abebb;
+    transition: 0.3s;
+}
+
+#esqueci {
+    display: block;
+    margin: 10px auto 15px auto;
+    width: 95%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    border-radius: 10px;
+}
+
+#esqueci:hover {
+    background-color: #97f5f2;
+    transition: 0.3s;
+}
